@@ -8,7 +8,7 @@ import React, { useState} from 'react';
 import { Routes, Route } from 'react-router-dom';
 import{
   BrowserRouter as Router,
-  Link
+
 }from "react-router-dom";
 function App() {
     const[mode,setmode]=useState('light');
